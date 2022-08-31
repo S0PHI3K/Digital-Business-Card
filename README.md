@@ -1,2 +1,2 @@
-# Digital-Businees-Card
+# Digital-Business-Card
 Scrimba React Project
