@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+.root {
+  max-width: 550px;
+  padding: 53px 65px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.canvas{
+  background-color: #1A1B21;
+  width: 317px;
+  margin: 44px auto 0 auto;
+  border-radius: 10px 10px 10px 10px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Information{
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+.Profile {
+  border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
+}
+
+.Overview {
+  font-family: Inter;
+  text-align: center;
+  color: #FFFAF0;
+}
+
+.Name {
+margin: 20px 0 5px 0;
+font-weight: 700;
+font-size: 25px;
+letter-spacing: 2px;
+color: #4da6a6;
+}
+
+.Career {
+  margin: 10px 0 5px 0;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.Website {
+  margin: 10px 0 15px 0;
+  font-size: 13px;
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+button {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  /* padding: 9px 13px 9px 11px; */
+}
+
+i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.Email {
+  color: Black;
+  margin-right: 5px;
+  font-family: Inter;
+  font-size: 15px;
+}
+
+.LinkedIn {
+  background-color: #5093E2;
+  margin-left: 5px;
   color: white;
+  font-size: 15px;
+  font-family: Inter;
 }
 
-.App-link {
-  color: #61dafb;
+.About, .Interests {
+  font-family: Inter;
+  text-align: left;
+  color: #FFFAF0;
+  margin: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Title {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #4da6a6;
+}
+
+.Synopsis {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  color: white;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Icons {
+  display: flex;
+  justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Social {
+  padding: 15px;
+  font-size: 30px;
 }
